@@ -1,0 +1,22 @@
+:root{
+   --color-primary-dark: rgb(10, 10, 80);
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    
+}
+
+.navbar a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: var(--color-primary-dark);
+    
+}
+
+
+

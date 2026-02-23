@@ -1,0 +1,13 @@
+
+
+.flip-card-inner{
+    text-align: center;
+    transition: transform 0.6;
+    transform-style: preserve-3d;
+}
+.flip-card-hover .flip-card-inner{
+    transform: rotate(180deg);
+}
+
+
+
